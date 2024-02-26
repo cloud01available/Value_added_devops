@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #008080;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Tea Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#types">Types</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Tea</h2>
+        <p>Tea is a popular aromatic beverage commonly prepared by pouring hot or boiling water over cured or fresh tea leaves. It's enjoyed worldwide and comes in various types and flavors.</p>
+    </section>
+    <section id="types">
+        <h2>Types of Tea</h2>
+        <ul>
+            <li>Green Tea</li>
+            <li>Black Tea</li>
+            <li>Oolong Tea</li>
+            <li>White Tea</li>
+            <li>Herbal Tea</li>
+        </ul>
+    </section>
+    <section id="benefits">
+        <h2>Benefits of Tea</h2>
+        <ul>
+            <li>Rich in antioxidants</li>
+            <li>Promotes heart health</li>
+            <li>Boosts metabolism</li>
+            <li>May aid in weight loss</li>
+            <li>Calms the mind and body</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to contact us at contact@example.com.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tea Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
